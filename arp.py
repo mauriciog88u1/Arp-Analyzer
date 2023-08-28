@@ -50,7 +50,7 @@ def create_network_topology(pcap_filename):
     return graph
 
 if __name__ == "__main__":
-    pcap_filename = "/Users/mauricig/Downloads/ap.pcap"
+    pcap_filename = input("File path for PCAP")
     devices = get_devices_from_pcap(pcap_filename)
     print("Devices found in the pcap:")
     
